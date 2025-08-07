@@ -20,7 +20,10 @@ to make changes from git there are specific commands to be used:-
 
 <br>Add & Commit 
 <br>add-adds new or changed files in your working directory to the git staging area.use the syntex:- git add <-file name->
-<br>for eg:- git add index.html and then check the status again.
+<br>for eg:- git add index.html or git add README.md and then check the status again.
+<br>if we want to add all the files at once and not individually then write:- git add "." 
+
+<br>Commit:-it is the record of change using the command, git commit -m "any message you want to display".
 
 
 author-komal 
