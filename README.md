@@ -76,6 +76,35 @@ to make changes from git there are specific commands to be used:-
 <br>General workflow for the local git should be:- git repo--->clone--->changes--->add--->commit--->push.
 
 
+<br>
+<br>
+<br>Branch Commands :-
+<br> use git branch:- to check branch
+<br> use git branch -M main:- to rename branch
+<br>git checkout <-branch name->:- to navigate
+<br>use git checkout -b <-new branch name->:-to create a new branch
+<br>use branch-d <-branch name->:-to delete branch.
+
+<br># to delete a particualr branch we need to be on another branch ,we can't delete a branch we are currently are.
+
+<br>channges made to a particular branch only,will be reflected in that particular branch only.
+
+<br>to see the changes in git ,we need to push the changes in that particcular branch using cmd:- git push origin <-branch name->
+(if any issue refer to 55:20 of the video)
+
+<br>
+<br>
+<br>MERGING the CODE:-
+<br>WAy 1:- 
+<br>use git diff<-branch name-> :- to compare commits,branches,files and more
+
+
+
+
+
+
+
+
 
 
 
